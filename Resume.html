@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #070707;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #ffffff;
+        }
+
+        h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .skill {
+            background-color: #ddd;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin: 5px 0;
+        }
+
+        .experience, .education {
+            margin-top: 20px;
+        }
+
+        .experience h3, .education h3 {
+            color: #555;
+        }
+
+        .project {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+    <title>Interactive Resume</title>
+</head>
+<body>
+
+    <header>
+        <h1>Amar Kumar</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">React</div>
+            <div class="skill">Node.js</div>
+            <!-- Add more skills as needed -->
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <div class="project">
+            <h3>Web Developer</h3>
+            <p>Company Upwork - January 2023 to Present</p>
+            <ul>
+                <li>Developed and maintained responsive web applications.</li>
+                <li>Collaborated with cross-functional teams to achieve project goals.</li>
+                <!-- Add more details as needed -->
+            </ul>
+        </div>
+        <!-- Add more experience entries as needed -->
+    </section>
+
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="project">
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p>University Gossner Collage Ranchi - Graduated May 2019</p>
+        </div>
+        <!-- Add more education entries as needed -->
+    </section>
+
+</body>
+</html>
