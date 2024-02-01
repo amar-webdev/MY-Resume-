@@ -12,3 +12,9 @@ Include a screenshot or preview of your resume here if applicable.
 
    ```bash
    git clone https://github.com/your-username/your-repository.git
+
+## Author
+Amar Kumar
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
